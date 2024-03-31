@@ -9,7 +9,7 @@ def add_length_of_strings(str_1, str_2):
     :param str_2: The second string
     """
     # Replace the code below with your own code
-    return len(str_1) + len(str_2)
+    return 0
 
 
 # ------------------------------------------------------------------------------

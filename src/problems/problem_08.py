@@ -9,14 +9,7 @@ def look_smart(sentence):
     :param sentence: The phrase to make smarter
     """
     # Replace the code below with your own code
-    smart_sentence = ""
-    for word in sentence.split():
-        if len(word) <= 3:
-            smart_sentence += " paradigm shifting"
-        else:
-            smart_sentence = smart_sentence + " " + word
-
-    return smart_sentence.strip()
+    return "paradigm shifting"
 
 
 # ------------------------------------------------------------------------------

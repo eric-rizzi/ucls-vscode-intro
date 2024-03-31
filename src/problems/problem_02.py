@@ -9,10 +9,7 @@ def first_and_last_letter(word):
     :param word: The word to slice
     """
     # Replace the code below with your own code
-    if len(word) <= 1:
-        return "too short"
-    else:
-        return word[0] + word[-1]
+    return "too short"
 
 
 # ------------------------------------------------------------------------------

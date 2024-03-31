@@ -15,14 +15,8 @@ def roller_coaster_rules(height_ft, height_in):
     :param height_ft: The height of the patron in feet
     :param height_in: The remaining inches of the patron's height
     """
-    if height_ft >= 6:
-        return "allowed"
-    elif height_ft <= 4:
-        return "nope"
-    elif height_in >= 6:
-        return "allowed"
-    else:
-        return "nope"
+    # Replace the code below with your own code
+    return "allowed"
 
 
 # ------------------------------------------------------------------------------
