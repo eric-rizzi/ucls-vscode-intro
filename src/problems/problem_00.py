@@ -9,7 +9,7 @@ def add_two_integers(int_1, int_2):
     :param int_2: The second number
     """
     # Replace the code below with your own code
-    return int_1 + int_2
+    return 0
 
 
 # ------------------------------------------------------------------------------

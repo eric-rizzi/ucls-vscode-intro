@@ -11,11 +11,7 @@ def count_vowels(sentence):
     :param sentence: The sentence to count vowels in
     """
     # Replace the code below with your own code
-    s = 0
-    for c in sentence:
-        if c.lower() in "aeiou":
-            s = s + 1
-    return s
+    return 0
 
 
 # ------------------------------------------------------------------------------

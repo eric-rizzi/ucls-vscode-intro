@@ -11,11 +11,7 @@ def count_nums_between(int_list, min_num, max_num):
     :param max_num: The maximum number to look for numbers "between"
     """
     # Replace the code below with your own code
-    ret = 0
-    for i in int_list:
-        if min_num <= i <= max_num:
-            ret += 1
-    return ret
+    return -1
 
 
 # ------------------------------------------------------------------------------

@@ -11,12 +11,8 @@ def largest_input(num_1, num_2, num_3):
     :param num_2: The second number
     :param num_3: The third number
     """
-    if num_1 > num_2 and num_1 > num_3:
-        return num_1
-    elif num_2 > num_3:
-        return num_2
-    else:
-        return num_3
+    # Replace the code below with your own code
+    return num_1
 
 
 # ------------------------------------------------------------------------------

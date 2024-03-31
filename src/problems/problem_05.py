@@ -11,9 +11,8 @@ def any_dogs(sentence):
 
     :param sentence: The sentence to check for the presence of dogs
     """
-    if "dog" in sentence.lower():
-        return "dogs seen"
-    return "no dogs"
+    # Replace the code below with your own code
+    return "dogs seen"
 
 
 # ------------------------------------------------------------------------------
