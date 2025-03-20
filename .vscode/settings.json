@@ -1,0 +1,12 @@
+{
+    "python.envFile": "${workspaceFolder}/.vscode/env",
+    "python.analysis.extraPaths": ["./src"],
+
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+    ]
+}
