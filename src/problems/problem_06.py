@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 
 
-def sum_of_positive_integers_in_list(int_list):
+def count_vowels(sentence):
     """
-    This function adds all of the positive integers in a list and returns the
-    result.
+    This function counts the number of vowels in a sentence (upper or lower
+    case) and returns the result.
 
-    :param int_list: The list of numbers
+    :param sentence: The sentence to count vowels in
     """
     # Replace the code below with your own code
     s = 0
-    for e in int_list:
-        if e > 0:
-            s = s + e
+    for c in sentence:
+        if c.lower() in "aeiou":
+            s = s + 1
     return s
 
 
@@ -23,37 +23,37 @@ if __name__ == "__main__":
     total_wrong = 0
 
     # Test 1
-    ret = sum_of_positive_integers_in_list([1, 2, 3, 4])
-    if ret != 10:
-        print(f"Test 1: Uh oh, [1, 2, 3, 4] returned {ret}")
+    ret = count_vowels("LAB!")
+    if ret != 1:
+        print(f'Test 1: Uh oh, "LAB!" returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 2
-    ret = sum_of_positive_integers_in_list([1, 2, -4, -6, 3, 4])
-    if ret != 10:
-        print(f"Test 2: Uh oh, [1, 2, -4, -6, 3, 4] returned {ret}")
+    ret = count_vowels("Best of FRIENDS!")
+    if ret != 4:
+        print(f'Test 2: Uh oh, "Best of FRIENDS!" returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 3
-    ret = sum_of_positive_integers_in_list([-5, -1, -2])
-    if ret != 0:
-        print(f"Test 3: Uh oh, [-5, -1, -2] returned {ret}")
+    ret = count_vowels("A, E, I, O, U, and sometimes Y")
+    if ret != 10:
+        print(f'Test 3: Uh oh, "A, E, I, O, U, and sometimes Y" returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 4
-    ret = sum_of_positive_integers_in_list([])
+    ret = count_vowels("")
     if ret != 0:
-        print(f"Test 4: Uh oh, [] returned {ret}")
+        print(f'Test 4: Uh oh, "" returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 5
-    ret = sum_of_positive_integers_in_list([1, 1, 1, 1, 1, 1, 1])
-    if ret != 7:
-        print(f"Test 5: Uh oh, [1, 1, 1, 1, 1, 1, 1] returned {ret}")
+    ret = count_vowels("Hmmmm AaEeIiOoUu Hmmmm")
+    if ret != 10:
+        print(f'Test 5: Uh oh, "Hmmmm AaEeIiOoUu Hmmmm" returned {ret}')
         total_wrong = total_wrong + 1
 
 
