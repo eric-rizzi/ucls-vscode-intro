@@ -18,37 +18,38 @@ def first_and_last_letter(word):
 # ------------------------------------------------------------------------------
 # Tests: Do not make changes below this line
 # ------------------------------------------------------------------------------
-total_wrong = 0
+if __name__ == "__main__":
+    total_wrong = 0
 
-# Test 1
-ret = first_and_last_letter("y")
-if ret != "too short":
-    print('Test 1: Uh oh, "y" returned', ret)
-    total_wrong = total_wrong + 1
-
-
-# Test 2
-ret = first_and_last_letter("")
-if ret != "too short":
-    print('Test 2: Uh oh, "" returned', ret)
-    total_wrong = total_wrong + 1
+    # Test 1
+    ret = first_and_last_letter("y")
+    if ret != "too short":
+        print('Test 1: Uh oh, "y" returned', ret)
+        total_wrong = total_wrong + 1
 
 
-# Test 3
-ret = first_and_last_letter("umbrella")
-if ret != "ua":
-    print('Test 3: Uh oh, "umbrella" returned', ret)
-    total_wrong = total_wrong + 1
+    # Test 2
+    ret = first_and_last_letter("")
+    if ret != "too short":
+        print('Test 2: Uh oh, "" returned', ret)
+        total_wrong = total_wrong + 1
 
 
-# Test 4
-ret = first_and_last_letter("yolo")
-if ret != "yo":
-    print('Test 4: Uh oh, "yolo" returned', ret)
-    total_wrong = total_wrong + 1
+    # Test 3
+    ret = first_and_last_letter("umbrella")
+    if ret != "ua":
+        print('Test 3: Uh oh, "umbrella" returned', ret)
+        total_wrong = total_wrong + 1
 
 
-if total_wrong == 0:
-    print("Overall: Woohoo! All tests have been passed for Problem 2!")
-else:
-    print("Overall: There's still work to do!")
+    # Test 4
+    ret = first_and_last_letter("yolo")
+    if ret != "yo":
+        print('Test 4: Uh oh, "yolo" returned', ret)
+        total_wrong = total_wrong + 1
+
+
+    if total_wrong == 0:
+        print("Overall: Woohoo! All tests have been passed for Problem 2!")
+    else:
+        print("Overall: There's still work to do!")
