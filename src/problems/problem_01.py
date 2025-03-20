@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
 
-def add_two_integers(int_1, int_2):
+def add_length_of_strings(str_1, str_2):
     """
-    This function adds two integers together and returns the result.
+    This function takes in two strings and adds their lengths together.
 
-    :param int_1: The first number
-    :param int_2: The second number
+    :param str_1: The first string
+    :param str_2: The second string
     """
     # Replace the code below with your own code
-    return int_1 + int_2
+    return len(str_1) + len(str_2)
 
 
 # ------------------------------------------------------------------------------
@@ -19,23 +19,23 @@ if __name__ == "__main__":
     total_wrong = 0
 
     # Test 1
-    ret = add_two_integers(5, 0)
-    if ret != 5:
-        print(f"Test 1: Uh oh, 5 + 0 returned {ret}")
+    ret = add_length_of_strings("hi", "there")
+    if ret != 7:
+        print(f'Test 1: Uh oh, len("hi") + len("there") returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 2
-    ret = add_two_integers(5, 4)
-    if ret != 9:
-        print(f"Test 2: Uh oh, 5 + 4 returned {ret}")
+    ret = add_length_of_strings("", "hi")
+    if ret != 2:
+        print(f'Test 2: Uh oh, len("") + len("hi") returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 3
-    ret = add_two_integers(-1, 8)
-    if ret != 7:
-        print(f"Test 3: Uh oh, -1 + 8 returned {ret}")
+    ret = add_length_of_strings("encyclopedia", " brown")
+    if ret != 18:
+        print(f'Test 3: Uh oh, len("encyclopedia") + len(" brown") returned {ret}')
         total_wrong = total_wrong + 1
 
 
