@@ -24,28 +24,28 @@ if __name__ == "__main__":
     # Test 1
     ret = first_and_last_letter("y")
     if ret != "too short":
-        print('Test 1: Uh oh, "y" returned', ret)
+        print(f'Test 1: Uh oh, "y" returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 2
     ret = first_and_last_letter("")
     if ret != "too short":
-        print('Test 2: Uh oh, "" returned', ret)
+        print(f'Test 2: Uh oh, "" returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 3
     ret = first_and_last_letter("umbrella")
     if ret != "ua":
-        print('Test 3: Uh oh, "umbrella" returned', ret)
+        print(f'Test 3: Uh oh, "umbrella" returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 4
     ret = first_and_last_letter("yolo")
     if ret != "yo":
-        print('Test 4: Uh oh, "yolo" returned', ret)
+        print(f'Test 4: Uh oh, "yolo" returned {ret}')
         total_wrong = total_wrong + 1
 
 

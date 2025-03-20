@@ -21,21 +21,21 @@ if __name__ == "__main__":
     # Test 1
     ret = add_two_integers(5, 0)
     if ret != 5:
-        print("Test 1: Uh oh, 5 + 0 returned", ret)
+        print(f"Test 1: Uh oh, 5 + 0 returned {ret}")
         total_wrong = total_wrong + 1
 
 
     # Test 2
     ret = add_two_integers(5, 4)
     if ret != 9:
-        print("Test 2: Uh oh, 5 + 4 returned", ret)
+        print(f"Test 2: Uh oh, 5 + 4 returned {ret}")
         total_wrong = total_wrong + 1
 
 
     # Test 3
     ret = add_two_integers(-1, 8)
     if ret != 7:
-        print("Test 3: Uh oh, -1 + 8 returned", ret)
+        print(f"Test 3: Uh oh, -1 + 8 returned {ret}")
         total_wrong = total_wrong + 1
 
 

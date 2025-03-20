@@ -24,35 +24,35 @@ if __name__ == "__main__":
     # Test 1
     ret = any_dogs(["llama", "horse", "dog", "cat"])
     if ret != "dogs seen":
-        print('Test 1: Uh oh, ["llama", "horse", "dog", "cat"] returned', ret)
+        print(f'Test 1: Uh oh, ["llama", "horse", "dog", "cat"] returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 2
     ret = any_dogs(["Llama", "Horse", "Dog", "cat"])
     if ret != "dogs seen":
-        print('Test 2: Uh oh, ["Llama", "Horse", "Dog", "cat"] returned', ret)
+        print(f'Test 2: Uh oh, ["Llama", "Horse", "Dog", "cat"] returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 3
     ret = any_dogs(["dog"])
     if ret != "dogs seen":
-        print('Test 3: Uh oh, ["dog"] returned', ret)
+        print(f'Test 3: Uh oh, ["dog"] returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 4
     ret = any_dogs(["Cat"])
     if ret != "no dogs":
-        print('Test 4: Uh oh, ["Cat"] returned', ret)
+        print(f'Test 4: Uh oh, ["Cat"] returned {ret}')
         total_wrong = total_wrong + 1
 
 
     # Test 5
     ret = any_dogs(["cat", "cat", "not sure but not a dog"])
     if ret != "no dogs":
-        print('Test 5: Uh oh, ["cat", "cat", "not sure but not a dog"] returned', ret)
+        print(f'Test 5: Uh oh, ["cat", "cat", "not sure but not a dog"] returned {ret}')
         total_wrong = total_wrong + 1
 
 
