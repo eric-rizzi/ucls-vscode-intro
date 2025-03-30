@@ -4,12 +4,12 @@
 def roller_coaster_rules(height_ft, height_in):
     """
     This function is in charge of determining whether someone is allowed onto a
-    roller coaster. If they are greater than 5'6", then the value "allowed"
+    roller coaster. If they are taller than 5'6", then the string "allowed"
     should be returned. Otherwise, "nope" should be returned.
 
     Hints:
-    - If they're 4 feet tall (or shorter), inches don't matter: they're too short.
-    - If they're 6 feet tall (or taller), inches don't matter: they're allowed.
+    - If they're 4 feet tall (or shorter), inches don't matter: they're too short
+    - If they're 6 feet tall (or taller), inches don't matter: they're allowed
     - Only when they're 5 feet tall do we actually have to check the inches part
 
     :param height_ft: The height of the patron in feet

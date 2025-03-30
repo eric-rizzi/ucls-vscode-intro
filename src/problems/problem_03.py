@@ -3,7 +3,9 @@
 
 def largest_input(num_1, num_2, num_3):
     """
-    This function returns the largest of three inputs.
+    This function returns the largest of three integer inputs.
+
+    > Note: assume that all the numbers are different values.
 
     :param num_1: The first number
     :param num_2: The second number

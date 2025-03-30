@@ -3,8 +3,9 @@
 
 def first_and_last_letter(word):
     """
-    This function returns the first and last letter of a word. Note: if the
-    word is too short, the the function returns "too short".
+    This function returns the first and last letter of a word concatenated
+    together. If the word is too short (length 1 or less), then the function
+    returns the string "too short" instead.
 
     :param word: The word to slice
     """

@@ -7,6 +7,8 @@ def any_dogs(sentence):
     the word "dog". If there is, then the function returns "dogs seen".
     Otherwise, the function returns "no dogs".
 
+    > Hint: use `.lower()`
+
     :param sentence: The sentence to check for the presence of dogs
     """
     if "dog" in sentence.lower():

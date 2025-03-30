@@ -6,6 +6,8 @@ def count_vowels(sentence):
     This function counts the number of vowels in a sentence (upper or lower
     case) and returns the result.
 
+    > Note: In this case, "y" is not considered a vowel
+
     :param sentence: The sentence to count vowels in
     """
     # Replace the code below with your own code

@@ -3,8 +3,8 @@
 
 def primes(max_num):
     """
-    This function takes a single input: an integer. It then returns all the
-    prime numbers less than **or equal to** that number.
+    This function takes a single input: an integer. It then returns a list of
+    all the prime numbers less than **or equal to** that number.
 
     :param max_num: The maximum to check for whether it's prime or not
     """

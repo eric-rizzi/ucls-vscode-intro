@@ -4,7 +4,9 @@
 def look_smart(sentence):
     """
     This function replaces all the words in a sentence that are short (less than
-    four letters) with "paradigm shifting" just to look smart.
+    four letters) with the string "paradigm shifting" just to look smart.
+
+    Hint: Use `.split()` and the accumulator pattern
 
     :param sentence: The phrase to make smarter
     """
